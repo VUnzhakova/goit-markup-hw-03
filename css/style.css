@@ -241,7 +241,7 @@ address {
   font-style: normal;
 }
 
-.boxes .address-link {
+.boxes-address .address-link {
   color: rgba(255, 255, 255, 0.6);
   font-family: Roboto;
   font-size: 14px;
@@ -249,8 +249,13 @@ address {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-.boxes .address-link:focus,
-.boxes .address-link:hover {
+
+.addres-item {
+  list-style-type: none;
+}
+
+.boxes-address .address-link:focus,
+.boxes-address .address-link:hover {
   color: var(--two-accent-color);
 }
 footer {

@@ -15,7 +15,8 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
-/* --- Шапка сайта ---*/
+
+/* ---- Шапка сайта ----*/
 
 .container {
   display: flex;

@@ -115,6 +115,8 @@ body {
 /*  Герой */
 
 .hero {
+  text-align: center;
+
   background: #2f303a;
   color: var(--two-accent-color);
 }

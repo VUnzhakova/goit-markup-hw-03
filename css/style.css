@@ -237,13 +237,10 @@ body {
 }
 /*  Подвал сайта */
 
-address {
-  font-style: normal;
-}
-
 .boxes-address .address-link {
   color: rgba(255, 255, 255, 0.6);
   font-family: Roboto;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -258,7 +255,10 @@ address {
 .boxes-address .address-link:hover {
   color: var(--two-accent-color);
 }
+
 footer {
+  height: 252px;
+
   background-color: #2f303a;
 }
 .logo-footer {

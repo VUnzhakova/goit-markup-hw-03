@@ -8,12 +8,6 @@
 body {
   font-family: Roboto, sans-serif;
 }
-/* --- Утилиты ---*/
-.list {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
 
 /* --- Шапка сайта ---*/
 
@@ -241,6 +235,10 @@ body {
 }
 .addres-item:last-child {
   margin-bottom: 0;
+}
+.boxes-address {
+  display: inline-block;
+  padding-left: 215px;
 }
 
 .boxes-address .address-link {

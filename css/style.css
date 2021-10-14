@@ -116,11 +116,15 @@ body {
 
 .hero {
   text-align: center;
-
+  width: 1600px;
+  height: 600px;
   background: #2f303a;
   color: var(--two-accent-color);
 }
 .hero-text {
+  padding-top: 200px;
+  padding-left: 452px;
+  padding-right: 452px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -129,6 +133,7 @@ body {
   color: var(--two-accent-color);
 }
 .hero-button {
+  margin-bottom: 200px;
   background-color: var(--accent-color);
   font-family: Roboto;
   font-weight: 700;

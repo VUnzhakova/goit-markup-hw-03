@@ -160,12 +160,11 @@ body {
 }
 
 .benefit-list {
-  display: flex;
-
-  margin-top: 94px;
-  margin-bottom: 94px;
   margin-left: 215px;
   margin-right: 215px;
+  display: flex;
+  margin-top: 94px;
+  margin-bottom: 94px;
   list-style-type: none;
 }
 
@@ -211,6 +210,18 @@ body {
 }
 
 /*  Наша команда */
+
+.boxes.mngr {
+  margin-top: 50px;
+}
+.item-mngr {
+  margin-right: 30px;
+}
+
+.item-mngr:last-child {
+  margin-right: 0px;
+}
+
 .manager {
   font-weight: 500;
   font-size: 16px;

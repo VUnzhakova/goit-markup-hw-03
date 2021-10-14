@@ -1,0 +1,222 @@
+:root {
+  --main-color: #212121;
+  --secondary-color: #757575;
+  --accent-color: #2196f3;
+  --two-accent-color: #ffffff;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+/* --- Шапка сайта ---*/
+
+.logo {
+  color: #000000;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.logo-accent {
+  color: var(--accent-color);
+}
+
+.site-nav .link {
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.current {
+  color: var(--accent-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/*  Шапка контакты */
+.contact-link .contact {
+  color: var(--secondary-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.contact-link .contact:hover,
+.contact-link .contact:focus {
+  color: var(--accent-color);
+}
+
+.contact-link,
+.site-nav {
+  list-style-type: none;
+}
+/*  Герой */
+
+.hero {
+  background: #2f303a;
+  color: var(--two-accent-color);
+}
+.hero-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--two-accent-color);
+}
+.hero-button {
+  background-color: var(--accent-color);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--two-accent-color);
+  cursor: pointer;
+}
+.hero-button:focus,
+.hero-button:hover {
+  background-color: #188ce8;
+}
+
+/*  Наши преимущества */
+
+.header-benefits {
+  display: none;
+}
+
+.benefit-list {
+  list-style-type: none;
+}
+
+.benefit {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 0.87;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.benefit-text {
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/*  Чем мы занимаемся */
+.header-section {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 0.85;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
+.boxes {
+  list-style-type: none;
+}
+
+/*  Наша команда */
+.manager {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19px;
+  color: var(--main-color);
+  letter-spacing: 0.03em;
+}
+.profession {
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--secondary-color);
+  letter-spacing: 0.03em;
+}
+/*  Подвал сайта */
+
+address {
+  font-style: normal;
+}
+
+.boxes .address-link {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.boxes .address-link:focus,
+.boxes .address-link:hover {
+  color: var(--two-accent-color);
+}
+footer {
+  background-color: #2f303a;
+}
+.logo-footer {
+  color: var(--two-accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+/*  СТРАНИЦА ПОРТФОЛИО */
+
+/*  Наши проекты фильтры */
+
+.filter-hed {
+  display: none;
+}
+
+.filter-buttons {
+  list-style-type: none;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--two-accent-color);
+  background-color: var(--accent-color);
+}
+
+.filter-btn {
+  color: var(--main-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+/*  Галерея проектов*/
+.gal-projects {
+  list-style-type: none;
+}
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project-txt {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}

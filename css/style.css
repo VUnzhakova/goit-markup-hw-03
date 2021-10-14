@@ -8,10 +8,23 @@
 body {
   font-family: Roboto, sans-serif;
 }
+/* --- Утилиты ---*/
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
 
 /* --- Шапка сайта ---*/
 
+.container {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
+  margin-right: 93px;
+
   color: #000000;
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -20,11 +33,31 @@ body {
   text-decoration: none;
 }
 
+.container .nav {
+  padding-left: 200px;
+}
+.contact-link {
+  padding-right: 200px;
+}
+
 .logo-accent {
   color: var(--accent-color);
 }
 
+.site-nav {
+  display: flex;
+}
+.site-nav .item {
+  margin-right: 50px;
+}
+.site-nav .item:last-child {
+  margin-right: 0;
+}
 .site-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--main-color);
   font-weight: 500;
   font-size: 14px;
@@ -34,6 +67,10 @@ body {
 }
 
 .current {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--accent-color);
   font-weight: 500;
   font-size: 14px;
@@ -48,6 +85,15 @@ body {
 }
 
 /*  Шапка контакты */
+
+.contact-link {
+  display: flex;
+  margin-left: auto;
+}
+.contact-link .item + .item {
+  margin-left: 50px;
+}
+
 .contact-link .contact {
   color: var(--secondary-color);
   font-weight: 500;

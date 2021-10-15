@@ -318,9 +318,6 @@ img {
 
 /*  Наши проекты фильтры */
 
-.filter-buttons {
-  list-style-type: none;
-}
 .filter-btn:hover,
 .filter-btn:focus {
   color: var(--two-accent-color);
@@ -357,7 +354,6 @@ img {
 .gal-projects {
   display: flex;
   flex-wrap: wrap;
-  list-style-type: none;
 }
 .gal-element {
   width: 370px;

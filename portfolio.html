@@ -12,13 +12,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
       integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
-      
+
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-  <header class="flex-container border-head">
-    <div class="container ">
-      <nav class="container nav">
+  <header class="header">
+    <div class="container header-container">
+      <nav class="nav">
         <a class="logo" href="#"> <span class="logo-accent">Web</span>Studio</a>
         <ul class="site-nav">
           <li class="item"><a href="./index.html" class="link">Студия</a></li>
@@ -38,8 +38,9 @@
     </div>
   </header>
     <main>
-      <section class="flex-container">
-        <h1 class="filter-hed">Наши проекты</h1>
+      <section class="section">
+        <div class="container">
+        <h1 class="visually-hidden">Наши проекты</h1>
         <ul class="filter-buttons">
           <li class="filter-items"><button type="button" class="filter-btn">Все</button></li>
           <li class="filter-items"><button type="button" class="filter-btn">Веб-сайты</button></li>
@@ -56,8 +57,10 @@
               width="390"
               height="294"
             />
+            <div class="project-discription">
             <h2 class="project-name">Технокряк</h2>
             <p class="project-txt">Веб-сайт</p>
+            </div>
           </li>
           <li class="gal-element">
             <img
@@ -66,8 +69,10 @@
               width="390"
               height="294"
             />
+            <div class="project-discription">
             <h2 class="project-name">Постер New Orlean vs Golden Star</h2>
             <p class="project-txt">Дизайн</p>
+            </div>
           </li>
           <li class="gal-element">
             <img
@@ -76,8 +81,10 @@
               width="390"
               height="294"
             />
+            <div class="project-discription">
             <h2 class="project-name">Ресторан Seafood</h2>
             <p class="project-txt">Приложение</p>
+            </div>
           </li>
           <li class="gal-element">
             <img
@@ -85,9 +92,10 @@
               alt="Проект Prime"
               width="390"
               height="294"
-            />
+            /><div class="project-discription">
             <h2 class="project-name">Проект Prime</h2>
             <p class="project-txt">Маркетинг</p>
+            </div>
           </li>
           <li class="gal-element">
             <img
@@ -95,9 +103,10 @@
               alt="Проект Boxes"
               width="390"
               height="294"
-            />
+            /><div class="project-discription">
             <h2 class="project-name">Проект Boxes</h2>
             <p class="project-txt">Приложение</p>
+            </div>
           </li>
           <li class="gal-element">
             <img
@@ -105,9 +114,10 @@
               alt="Inspiration has no Borders"
               width="390"
               height="294"
-            />
+            /><div class="project-discription">
             <h2 class="project-name">Inspiration has no Borders</h2>
             <p class="project-txt">Веб-сайт</p>
+            </div>
           </li>
           <li class="gal-element">
             <img
@@ -115,9 +125,10 @@
               alt="Издание Limited Edition"
               width="390"
               height="294"
-            />
+            /><div class="project-discription">
             <h2 class="project-name">Издание Limited Edition</h2>
             <p class="project-txt">Дизайн</p>
+            </div>
           </li>
           <li class="gal-element">
             <img
@@ -125,9 +136,10 @@
               alt="Проект LAB"
               width="390"
               height="294"
-            />
+            /><div class="project-discription">
             <h2 class="project-name">Проект LAB</h2>
             <p class="project-txt">Маркетинг</p>
+            </div>
           </li>
           <li class="gal-element">
             <img
@@ -135,19 +147,20 @@
               alt="Growing Business"
               width="390"
               height="294"
-            />
+            /><div class="project-discription">
             <h2 class="project-name">Growing Business</h2>
-            <p class="project-txt">Приложение</p>
+            <p class="project-txt">Приложение</p> 
+          </div>
           </li>
         </ul>
+        </div>
       </section>
     </main>
-    <footer>
-      <div class="flex-container">
-        <a class="logo-footer" href="#">
-          <span class="logo-accent">Web</span>Studio</a>
-      </div>
-      <address class="flex-container">
+  <footer class="footer">
+    <div class="container">
+      <a class="logo-footer" href="#">
+        <span class="logo-accent">Web</span>Studio</a>
+      <address>
         <ul class="boxes-address">
           <li class="addres-item">
             <a href="=" class="address-link">
@@ -162,7 +175,7 @@
           </li>
         </ul>
       </address>
-    
-    </footer>
+    </div>
+  </footer>
   </body>
 </html>
